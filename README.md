@@ -1,4 +1,4 @@
-# FCC_nuclear_structure
+# FCC nuclear structure
 Code to use the FCC lattice model for atomic nuclei following the theory of Norman D. Cook
 
 This Matlab code contains an adaptation of the Face-Centered-Cubic (FCC) lattice model proposed by Norman D. Cook ("Models of the Atomic Nucleus: Unification Through a Lattice of Nucleons", 2nd Edition, 2010) for visualizing and modeling the structures of atomic nuclei. The code contains an interactive interface to insert input data.
