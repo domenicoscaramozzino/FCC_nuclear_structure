@@ -5,4 +5,4 @@ This Matlab code contains an adaptation of the Face-Centered-Cubic (FCC) lattice
 
 First, you will be ask which nucleus you want to analyze, e.g. type Z = 26 and N = 30 for Fe^56.
 
-![FCC](images/Fe56_FCC.tif)
+![FCC](images/Fe56_FCC.png)
