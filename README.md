@@ -13,3 +13,8 @@ The code will also provide a picture of the randomized FCC structure with the hi
 
 ![FCC](images/Optimal_BE_Fe56_FCC.png)
 
+Then you can carry out the fission analysis of the selected nucleus. The code will carry out fission calculations by fracturing each of the feasible FCC structures along the main 21 crystallographic planes of the FCC lattice and generate a list of fragments, associated to Z, N, A numbers, Coulomb repulsion and energy values needed to break the first-neighboring bonds. Note: for very small nuclei (i.e. He4) you might need to reduce the number of crystallographic planes, since some of them might lie outside the overall surface of the nucleus and will not generate separate fragments. The code will then plot a histogram distribution of fission energies, e.g. for Fe56 these are found to range from ~15 MeV to ~147 MeV.
+
+![FCC](images/Fission_energies_Fe56.png)
+
+Then, you can select a energy range (in MeV) to carry out a statistical analysis 
