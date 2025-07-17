@@ -31,7 +31,8 @@ The code also automatically weight such occurrence based on the fission energy, 
 
 ![FCC](images/Fission_fragments_energy_weigthed_occurrence_Fe56.png)
 
-Finally, since most of the generated fragments are highly unstable, the code also allows you to take into account the decay into stable nuclei. This calculation is carried out based on the half-lives of every (Z,N) couple reported in the NUBASE2020 database (10.1088/1674-1137/abddae) and saved in the "Nuclear_stability.xlsx" file, and based of the characteristic time (T_char) of our observation, e.g. after 1 minute, 1 hour, 1 day, etc. Note that also here, if you are dealing with zero or negative fission energy values, you might want to adjust the probability calculation, as explained above.
+Finally, since most of the generated fragments are highly unstable, the code also allows you to take into account the decay into stable nuclei. This calculation is carried out based on the half-lives of every (Z,N) couple reported in the NUBASE2020 database (10.1088/1674-1137/abddae) and saved in the "Nuclear_stability.xlsx" file, and based of the characteristic time (T_char) of our observation, e.g. after 1 minute, 1 hour, 1 day, etc. For our Fe56 example, we obtain something like this:
 
 ![FCC](images/Fission_results_with_decay_Fe56.png)
 
+Note that also here, if you are dealing with zero or negative fission energy values, you might want to adjust the probability calculation, as explained above.
