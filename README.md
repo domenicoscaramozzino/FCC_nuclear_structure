@@ -17,4 +17,15 @@ Then you can carry out the fission analysis of the selected nucleus. The code wi
 
 ![FCC](images/Fission_energies_Fe56.png)
 
-Then, you can select a energy range (in MeV) to carry out a statistical analysis 
+Then, you can select a energy range (in MeV) to carry out a statistical analysis of the fragments, in terms of occurrence for atomic number and mass value.
+
+![FCC](images/Fission_fragments_occurrence_Fe56.png)
+
+The code can also automatically weigth such occurrence based on the fission energy, i.e. fragments generated with lower fission energy are more likely to happen. Note: sometimes it can happen that some fragments are associated with zero fission energy (perfect balance between Coulomb repulsion between the fragments and energy to break nuclear bonds), or even negative energy (Coulomb repulsion higher than breaking energy). In these cases, you might want to adjust the calculation for energy-based weighting, providing a positive energy shift so that you do not deal with zero- or negative-energy values during the probability calculation.
+
+![FCC](images/Fission_fragments_energy_weigthed_occurrence_Fe56.png)
+
+Finally, based on the fission results, you can also 
+
+
+
